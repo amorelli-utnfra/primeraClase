@@ -4,7 +4,12 @@
 
 <button (click)="title = 'pepe'">mostrar</button>
 
+<input type="text" [(ngModel)]="valorInput" />
+
 @if (title == 'pepe') {
   <app-mis-datos></app-mis-datos>
 }
+
+{{valorInput}}
+
 
